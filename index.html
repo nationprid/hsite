@@ -1,0 +1,917 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vertex Global Inc. — Diversified Conglomerate</title>
+  <meta name="description" content="Vertex Global Inc. delivers industry-leading solutions across Health, Industrial, Energy, Agriculture, Materials, Transportation and Real Estate." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="theme-color" content="#0b72e7" />
+  <style>
+    :root{--bg:#061018;--muted:#9aa6b8;--text:#eaf3ff;--brand:#0b72e7;--brand-2:#6c5ce7;--accent:#19c37d;--glass:rgba(255,255,255,.04);--card:#071014;--radius:18px;--hamburger:#08a0ff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;color:var(--text);background:linear-gradient(180deg,var(--bg),#041017);-webkit-font-smoothing:antialiased}
+    img{max-width:100%;display:block}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+
+    /* Header */
+<!--    header{position:sticky;top:0;z-index:1000;background:linear-gradient(180deg,rgba(6,10,14,.85),rgba(6,10,14,.65));backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.03)}-->
+<!--    .header-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}-->
+<!--    .logo{display:flex;align-items:center;gap:12px;font-weight:800}-->
+<!--    .logo .mark{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(135deg,var(--brand),var(--brand-2));box-shadow:0 6px 18px rgba(11,114,231,.28)}-->
+<!--    nav{display:flex;gap:20px}-->
+<!--    .nav-list{display:flex;gap:18px;list-style:none;margin:0;padding:0;align-items:center}-->
+<!--    .nav-item{position:relative}-->
+<!--    .nav-trigger{cursor:pointer;padding:8px 10px;border-radius:8px;font-weight:700;color:var(--text);display:inline-flex;gap:8px;align-items:center}-->
+<!--    .nav-trigger:hover{background:rgba(255,255,255,.02)}-->
+<!--    .submenu-desktop{position:absolute;top:calc(100% + 12px);left:0;min-width:260px;background:linear-gradient(180deg,#071014, #08131a);border-radius:14px;padding:8px;border:1px solid rgba(255,255,255,.04);box-shadow:0 24px 40px rgba(0,0,0,.6);transform:translateY(6px);opacity:0;visibility:hidden;transition:.18s}-->
+<!--    .nav-item:hover .submenu-desktop{opacity:1;visibility:visible;transform:translateY(0)}-->
+<!--    .submenu-desktop a{display:block;padding:10px;border-radius:10px;color:var(--muted);font-weight:600}-->
+<!--    .submenu-desktop a:hover{background:rgba(255,255,255,.02);color:var(--text)}-->
+
+    /* Mobile */
+<!--    .hamburger{display:none;background:linear-gradient(135deg,var(--hamburger),#2db7ff);border:0;padding:8px;border-radius:10px;color:#012030;font-weight:800;box-shadow:0 6px 18px rgba(3,52,80,.25)}-->
+<!--    .hamburger i{font-size:16px}-->
+<!--    .mobile-panel{position:fixed;inset:0 0 0 auto;width:min(92%,420px);background:#041018;transform:translateX(100%);transition:transform .28s cubic-bezier(.2,.9,.2,1);box-shadow:-30px 0 80px rgba(0,0,0,.6);z-index:1200;display:flex;flex-direction:column}-->
+<!--    .mobile-panel.open{transform:translateX(0)}-->
+<!--    .mobile-head{display:flex;align-items:center;justify-content:space-between;padding:16px;border-bottom:1px solid rgba(255,255,255,.03)}-->
+<!--    .mobile-list{padding:12px 16px;display:flex;flex-direction:column;gap:8px;overflow:auto}-->
+<!--    .mobile-list details{background:rgba(255,255,255,.02);padding:8px;border-radius:12px;border:1px solid rgba(255,255,255,.03)}-->
+<!--    .mobile-list summary{cursor:pointer;padding:12px;font-weight:700}-->
+<!--    .mobile-list a{display:block;padding:10px 12px;color:var(--muted)}-->
+<!--    .scrim{position:fixed;inset:0;background:rgba(0,0,0,.45);opacity:0;visibility:hidden;transition:opacity .2s;z-index:1150}-->
+<!--    .scrim.show{opacity:1;visibility:visible}-->
+
+    /* Hero */
+<!--    .hero{min-height:84vh;display:grid;align-items:center;padding:96px 0;position:relative}-->
+<!--    .hero .grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}-->
+<!--    .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.03);font-weight:700;color:var(--muted)}-->
+<!--    h1{font-family:'Playfair Display',serif;font-size:clamp(36px,6vw,64px);line-height:1.02;margin:16px 0}-->
+<!--    .lead{color:var(--muted);font-size:18px;max-width:60ch}-->
+<!--    .cta{display:flex;gap:12px;margin-top:22px}-->
+<!--    .btn{padding:12px 18px;border-radius:12px;font-weight:800;border:1px solid transparent;display:inline-flex;align-items:center;gap:10px}-->
+<!--    .btn-primary{background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#fff;box-shadow:0 10px 30px rgba(11,114,231,.28)}-->
+<!--    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,.04);color:var(--text)}-->
+<!--    .hero-media{border-radius:20px;overflow:hidden;box-shadow:0 30px 80px rgba(2,6,12,.6)}-->
+
+    /* sectors grid */
+<!--    .sectors{padding:60px 0}-->
+<!--    .section-title{text-align:center;margin-bottom:28px}-->
+<!--    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}-->
+<!--    .card{grid-column:span 4;background:linear-gradient(180deg,rgba(255,255,255,.01),transparent);border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.03);display:flex;flex-direction:column}-->
+<!--    .media{aspect-ratio:16/10;overflow:hidden}-->
+<!--    .body{padding:16px}-->
+<!--    .chip{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.02);font-weight:700;color:var(--muted)}-->
+<!--    .card h3{margin:12px 0 8px}-->
+<!--    .card p{color:var(--muted);margin:0}-->
+<!--    .actions{padding:12px}-->
+
+    /* Page templates */
+<!--    .page{display:none}-->
+<!--    .page.active{display:block}-->
+<!--    .page-header{padding:36px;border-radius:12px;margin-bottom:18px}-->
+<!--    .page-header h1{font-family:'Playfair Display',serif;margin:0 0 8px}-->
+<!--    .page-header p{margin:0;color:var(--muted)}-->
+<!--    .page-body{padding:30px 0}-->
+<!--    .content-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;align-items:center}-->
+<!--    .content-image{grid-column:span 6;border-radius:14px;overflow:hidden}-->
+<!--    .content-text{grid-column:span 6}-->
+<!--    .sub-hero{font-size:14px;color:var(--muted);margin-bottom:12px}-->
+<!--    .lead-2{font-size:20px;color:#f6fbff}-->
+<!--    .list{margin:14px 0 24px}-->
+<!--    .list li{margin:8px 0;color:var(--muted)}-->
+<!--    .case{background:rgba(255,255,255,.02);padding:12px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,.03)}-->
+
+    /* Contact */
+<!--    .contact-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:22px}-->
+<!--    .contact-card{grid-column:span 5;background:rgba(255,255,255,.02);padding:20px;border-radius:12px}-->
+<!--    .contact-form{grid-column:span 7;background:linear-gradient(180deg,rgba(255,255,255,.02),transparent);padding:20px;border-radius:12px}-->
+<!--    .field{display:flex;flex-direction:column;margin-bottom:12px}-->
+<!--    label{font-weight:700;margin-bottom:6px;color:#eaf3ff}-->
+<!--    input,textarea,select{background:transparent;border:1px solid rgba(255,255,255,.06);padding:10px;border-radius:8px;color:var(--text)}-->
+<!--    textarea{min-height:120px}-->
+<!--    .small{font-size:13px;color:var(--muted)}-->
+
+<!--    footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.03);margin-top:40px}-->
+<!--    .footer-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}-->
+<!--    .fcol{grid-column:span 4}-->
+<!--    .copyright{text-align:center;color:var(--muted);margin-top:18px}-->
+
+    /* responsive */
+<!--    @media (max-width:1024px){nav{display:none}.hamburger{display:inline-grid} .hero .grid{grid-template-columns:1fr} .card{grid-column:span 6} .content-image,.content-text{grid-column:span 12} .contact-card{grid-column:span 12}.contact-form{grid-column:span 12}}-->
+<!--    @media (max-width:640px){.card{grid-column:span 12} .fcol{grid-column:span 12}}-->
+
+<!--    @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}-->
+<!--  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Vertex Global Inc.">
+        <span class="mark"><i class="fa-solid fa-globe"></i></span>
+        <span>Vertex<span style="color:var(--accent)">Global</span>Inc</span>
+      </a>
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <div class="nav-trigger">Health <i class="fa-solid fa-chevron-down" style="font-size:11px;opacity:.7"></i></div>
+            <div class="submenu-desktop" role="menu">
+              <a href="#pharmaceutical" role="menuitem">Pharmaceutical</a>
+              <a href="#biotechnology" role="menuitem">Biotechnology</a>
+              <a href="#medical-devices" role="menuitem">Medical Devices</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-trigger">Industrial <i class="fa-solid fa-chevron-down" style="font-size:11px;opacity:.7"></i></div>
+            <div class="submenu-desktop">
+              <a href="#construction">Construction</a>
+              <a href="#manufacturing">Manufacturing</a>
+              <a href="#mine-steel">Mine & Steel</a>
+              <a href="#ports-operation">Ports Operation</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-trigger">Energy <i class="fa-solid fa-chevron-down" style="font-size:11px;opacity:.7"></i></div>
+            <div class="submenu-desktop">
+              <a href="#oil-gas">Oil & Gas</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-trigger">Agriculture <i class="fa-solid fa-chevron-down" style="font-size:11px;opacity:.7"></i></div>
+            <div class="submenu-desktop">
+              <a href="#food-beverage">Food & Beverage</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-trigger">Materials <i class="fa-solid fa-chevron-down" style="font-size:11px;opacity:.7"></i></div>
+            <div class="submenu-desktop">
+              <a href="#mining-metals-chemicals">Mining, Metals & Chemicals</a>
+              <a href="#packaging-materials">Packaging Materials</a>
+            </div>
+          </li>
+
+          <li class="nav-item"><div class="nav-trigger"><a href="#transportation" style="color:inherit">Transportation</a></div></li>
+          <li class="nav-item"><div class="nav-trigger"><a href="#real-estate" style="color:inherit">Real Estate</a></div></li>
+          <li class="nav-item"><div class="nav-trigger"><a href="#contact" style="color:inherit">Contact</a></div></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="mobilePanel" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-panel" id="mobilePanel" aria-hidden="true">
+    <div class="mobile-head">
+      <div style="display:flex;align-items:center;gap:10px"><span class="mark" style="width:28px;height:28px;border-radius:8px;display:grid;place-items:center;background:linear-gradient(135deg,var(--brand),var(--brand-2))"><i class="fa-solid fa-globe"></i></span><strong>Menu</strong></div>
+      <button class="hamburger" id="closePanel" aria-label="Close menu" style="background:transparent;border:0;color:var(--text);font-size:20px"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <nav class="mobile-list" aria-label="Mobile Navigation">
+      <a href="#home" class="mobile-link">Home</a>
+      <details>
+        <summary>Health</summary>
+        <a href="#pharmaceutical">Pharmaceutical</a>
+        <a href="#biotechnology">Biotechnology</a>
+        <a href="#medical-devices">Medical Devices</a>
+      </details>
+      <details>
+        <summary>Industrial</summary>
+        <a href="#construction">Construction</a>
+        <a href="#manufacturing">Manufacturing</a>
+        <a href="#mine-steel">Mine & Steel</a>
+        <a href="#ports-operation">Ports Operation</a>
+      </details>
+      <details>
+        <summary>Energy</summary>
+        <a href="#oil-gas">Oil & Gas</a>
+      </details>
+      <details>
+        <summary>Agriculture</summary>
+        <a href="#food-beverage">Food & Beverage</a>
+      </details>
+      <details>
+        <summary>Materials</summary>
+        <a href="#mining-metals-chemicals">Mining, Metals & Chemicals</a>
+        <a href="#packaging-materials">Packaging Materials</a>
+      </details>
+      <a href="#transportation">Transportation</a>
+      <a href="#automobile">Automobile</a>
+      <a href="#real-estate">Real Estate</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="scrim" id="scrim" aria-hidden="true"></div>
+
+  <!-- HOME -->
+  <main id="home">
+    <section class="hero">
+      <div class="container">
+        <div class="grid">
+          <div>
+            <span class="eyebrow"><i class="fa-solid fa-award"></i> Built for high impact</span>
+            <h1>Bold ideas. Relentless delivery.<br/>Industry‑leading execution.</h1>
+            <p class="lead">Vertex Global Inc. operates disciplined, design-first businesses across seven sectors — building products, infrastructure and services that win in competitive markets while creating measurable social and environmental value.</p>
+            <div class="cta">
+              <a class="btn btn-primary" href="#sectors"><i class="fa-solid fa-compass"></i> Explore our sectors</a>
+              <a class="btn btn-ghost" href="#contact"><i class="fa-solid fa-handshake"></i> Partner with us</a>
+            </div>
+          </div>
+          <div class="hero-media" aria-hidden="true">
+            <img alt="Global operations collage" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80" srcset="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80 800w, https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80 1400w, https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2000&q=80 2000w" sizes="(max-width:1024px) 100vw,50vw"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTORS -->
+    <section id="sectors" class="sectors">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Businesses</h2>
+          <p>Each business is built to lead — with scale, modern design and a relentless focus on outcomes.</p>
+        </div>
+        <div class="grid">
+          <!-- Health -->
+          <article class="card" data-target="pharmaceutical">
+            <div class="media"><img alt="Healthcare research" src="https://images.unsplash.com/photo-1576671081837-49000212a370?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhhcm1hY2V1dGljYWx8ZW58MHx8MHx8fDA%3D" /></div>
+            <div class="body"><span class="chip"><i class="fa-solid fa-heart-pulse"></i> Health</span><h3>Pharmaceutical, Biotech & Devices</h3><p>Breakthrough treatments, precision diagnostics and devices that redefine standards of care.</p></div>
+            <div class="actions"><a class="btn btn-primary" href="#pharmaceutical">Explore</a></div>
+          </article>
+
+          <!-- Industrial -->
+          <article class="card" data-target="construction">
+            <div class="media"><img alt="Industrial" src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1600&q=80"/></div>
+            <div class="body"><span class="chip"><i class="fa-solid fa-industry"></i> Industrial</span><h3>Construction, Manufacturing & Ports</h3><p>Infrastructure, high-volume manufacturing and logistics that keep commerce moving.</p></div>
+            <div class="actions"><a class="btn btn-primary" href="#construction">Explore</a></div>
+          </article>
+
+          <!-- Energy -->
+          <article class="card" data-target="oil-gas">
+            <div class="media"><img alt="Energy" src="https://images.unsplash.com/photo-1588011930968-eadac80e6a5a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b2lsJTIwYW5kJTIwZ2FzfGVufDB8fDB8fHww"/></div>
+            <div class="body"><span class="chip"><i class="fa-solid fa-bolt"></i> Energy</span><h3>Oil & Gas — transition-ready</h3><p>Decades of upstream and midstream expertise with a clear roadmap to cleaner energy solutions.</p></div>
+            <div class="actions"><a class="btn btn-primary" href="#oil-gas">Explore</a></div>
+          </article>
+
+          <!-- Agriculture -->
+          <article class="card" data-target="food-beverage">
+            <div class="media"><img alt="Agriculture" src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1600&q=80"/></div>
+            <div class="body"><span class="chip"><i class="fa-solid fa-wheat-awn"></i> Agriculture</span><h3>Food & Beverage</h3><p>Integrated food systems that deliver quality, scale and traceability from farm to shelf.</p></div>
+            <div class="actions"><a class="btn btn-primary" href="#food-beverage">Explore</a></div>
+          </article>
+
+          <!-- Materials -->
+          <article class="card" data-target="mining-metals-chemicals">
+            <div class="media"><img alt="Materials" src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1600&q=80"/></div>
+            <div class="body"><span class="chip"><i class="fa-solid fa-cubes"></i> Materials</span><h3>Mining, Metals & Packaging</h3><p>Supplying the raw materials and packaging solutions that global trade demands.</p></div>
+            <div class="actions"><a class="btn btn-primary" href="#mining-metals-chemicals">Explore</a></div>
+          </article>
+
+          <!-- Transportation -->
+          <article class="card" data-target="transportation">
+            <div class="media"><img alt="Transportation" src="https://plus.unsplash.com/premium_photo-1661963312443-e6f80b64ace6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxvZ2lzdGljc3xlbnwwfHwwfHx8MA%3D%3D"/></div>
+            <div class="body"><span class="chip"><i class="fa-solid fa-truck"></i> Transportation</span><h3>Logistics & Distribution</h3><p>Resilient transport networks optimized for speed, reliability and sustainability.</p></div>
+            <div class="actions"><a class="btn btn-primary" href="#transportation">Explore</a></div>
+          </article>
+
+          <!-- Real Estate -->
+          <article class="card" data-target="real-estate">
+            <div class="media"><img alt="Real estate" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80"/></div>
+            <div class="body"><span class="chip"><i class="fa-solid fa-city"></i> Real Estate</span><h3>Developments & Asset Management</h3><p>Smart, sustainable and high-return real estate investments around major urban centers.</p></div>
+            <div class="actions"><a class="btn btn-primary" href="#real-estate">Explore</a></div>
+          </article>
+           <!--- Automobile -->
+          <!-- Contact -->
+<article class="card" data-target="automobile">
+  <div class="media">
+    <img alt="Contact" src="https://images.unsplash.com/photo-1517026575980-3e1e2dedeab4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXV0b21vYmlsZXxlbnwwfHwwfHx8MA%3D%3D"/>
+  </div>
+  <div class="body">
+    <span class="chip"><i class="fa-solid fa-car"></i> Contact</span>
+    <h3>Drive with Us</h3>
+    <p>Connect with our automotive experts — from car sales to service, we’re here to keep you moving.</p>
+  </div>
+  <div class="actions">
+    <a class="btn btn-primary" href="#automobile">Explore</a>
+  </div>
+</article>
+
+          <!-- Contact -->
+          <article class="card" data-target="contact">
+            <div class="media"><img alt="Contact" src="https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&w=1600&q=80"/></div>
+            <div class="body"><span class="chip"><i class="fa-solid fa-envelope"></i> Contact</span><h3>Work with us</h3><p>Global headquarters and local offices — reach the team that builds at scale.</p></div>
+            <div class="actions"><a class="btn btn-primary" href="#contact">Contact</a></div>
+          </article>
+          
+         
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- DETAILED PAGES with expanded content, vision, impact, innovation, case studies -->
+
+  <!-- Health -> Pharmaceutical -->
+  <section id="pharmaceutical" class="page">
+    <div class="container page-header"><h1>Pharmaceuticals</h1><p>Prescription medicines and therapies that change lives.</p></div>
+    <div class="container page-body">
+      <div class="content-grid">
+        <div class="content-image"><img alt="Pharmaceutical lab" src="https://images.unsplash.com/photo-1563213126-a4273aed2016?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBoYXJtYWNldXRpY2FsfGVufDB8fDB8fHww"/></div>
+        <div class="content-text">
+          <p class="sub-hero">We design medicines for complex diseases — from discovery to global distribution.</p>
+          <h2 class="lead-2">R&D at speed, manufacturing at scale</h2>
+          <p>Vertex Global's pharmaceutical division combines rapid translational research with robust manufacturing capability. Our teams run parallel discovery and development tracks to reduce time to patient while keeping safety and regulatory excellence non-negotiable.</p>
+          <h3>Vision & Mission</h3>
+          <p>To deliver breakthrough therapies that materially improve patients' lives and scale access globally, with a relentless focus on quality and outcomes.</p>
+          <h3>Global impact</h3>
+          <p>Operations across 30+ countries with regional manufacturing hubs in Europe, North America and Africa. We prioritize access: tiered pricing, patient assistance programs and local partnerships to get medicines to underserved populations.</p>
+          <h3>Innovation highlights</h3>
+          <ul class="list">
+            <li>Adaptive trial designs to accelerate efficacy readouts.</li>
+            <li>Biomanufacturing modernization for flexible fill-finish at multiple sites.</li>
+            <li>Patient-centric supply chains and digital adherence solutions.</li>
+          </ul>
+          <h3>Case study — Oncology launch</h3>
+          <div class="case">
+            <strong>Challenge:</strong> Rapid scale-up for a first-in-class oncology therapy. <br/>
+            <strong>Approach:</strong> Multi-site tech transfer, parallel regulatory filings and targeted patient access programs. <br/>
+            <strong>Outcome:</strong> Commercial launch in 12 countries within 9 months — exceeding uptake forecasts by 32%.
+          </div>
+          <a class="btn btn-ghost" href="#sectors"><i class="fa-solid fa-arrow-left"></i> Back to all sectors</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Health -> Biotechnology -->
+  <section id="biotechnology" class="page">
+    <div class="container page-header"><h1>Biotechnology</h1><p>Turning biology into breakthrough solutions.</p></div>
+    <div class="container page-body">
+      <div class="content-grid">
+        <div class="content-text">
+          <p class="sub-hero">Platform-driven discovery powering durable clinical impact.</p>
+          <h2 class="lead-2">Platform scale meets surgical focus</h2>
+          <p>Our biotech platform investments prioritize modalities that deliver high therapeutic value and durable outcomes. We combine proprietary discovery tools with strategic partnerships to accelerate programs from target ID to clinic.</p>
+          <h3>Capabilities</h3>
+          <ul class="list">
+            <li>Gene editing & delivery platforms.</li>
+            <li>Monoclonal antibody engineering and next-gen biologics.</li>
+            <li>Bioprocess scale-up and viral vector production capability.</li>
+          </ul>
+          <h3>Case study — Gene therapy collaboration</h3>
+          <div class="case">
+            We partnered with a university spinout to take a gene therapy from preclinical proof-of-concept to IND in under 18 months by providing vector manufacturing, regulatory strategy and clinical operations support.
+          </div>
+        </div>
+        <div class="content-image"><img alt="Biotech lab" src="https://images.unsplash.com/photo-1531956656798-56686eeef3d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJpb3RlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D"/></div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Health -> Medical Devices -->
+<section id="medical-devices" class="page">
+  <div class="container page-header">
+    <h1>Medical Devices</h1>
+    <p>Engineered precision for clinicians and patients.</p>
+  </div>
+  <div class="container page-body">
+    <div class="content-grid">
+      <div class="content-image">
+        <img alt="Medical devices" src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+      </div>
+      <div class="content-text">
+        <p class="sub-hero">Design-led devices that amplify clinical outcomes.</p>
+
+        <h2 class="lead-2">From prototype to operating room</h2>
+        <p>We bring human-centered engineering to devices: ergonomics, sterilization-ready materials, connectivity and cloud-enabled analytics. Our clinical teams run iterative validation cycles with top hospitals to ensure usability and clinical efficacy.</p>
+
+        <h3>Key Product Areas</h3>
+        <ul class="list">
+          <li>Imaging & diagnostics platforms.</li>
+          <li>Minimally invasive surgical tools.</li>
+          <li>Remote monitoring & predictive maintenance for hospital assets.</li>
+        </ul>
+
+        <h3>Innovation & Technology</h3>
+        <p>We integrate AI-driven imaging, robotic-assisted surgical systems, and IoT-enabled monitoring devices to empower clinicians with real-time insights. Our connected platforms ensure that patient data flows securely across care teams, driving faster and more accurate interventions.</p>
+
+        <h3>Regulatory Excellence</h3>
+        <p>All our devices are developed in compliance with FDA, CE, and global regulatory frameworks. We maintain rigorous quality control, validation, and risk management protocols to ensure every device meets the highest standards of safety and effectiveness.</p>
+
+        <h3>Sustainability</h3>
+        <p>We are committed to sustainable device design — from energy-efficient production lines to recyclable materials. Our focus on durability and reusability reduces hospital costs and environmental impact, without compromising performance.</p>
+
+        <h3>Case Study — Smart Surgical Tool</h3>
+        <div class="case">
+          <strong>Challenge:</strong> Hospitals required precision surgical tools that reduced fatigue and improved outcomes in long procedures.<br/>
+          <strong>Approach:</strong> Co-designed with leading surgeons, we introduced ergonomic instruments embedded with smart sensors that provide haptic feedback during operations.<br/>
+          <strong>Outcome:</strong> Reduced average surgery time by 22% and improved patient recovery rates across pilot hospitals.
+        </div>
+
+        <h3>Future Outlook</h3>
+        <p>We are actively investing in personalized medicine devices — including 3D-printed implants, wearable biosensors, and AI-powered diagnostics. Our goal is to transform how clinicians deliver care, moving from treatment to prediction and prevention.</p>
+
+        <a class="btn btn-ghost" href="#sectors"><i class="fa-solid fa-arrow-left"></i> Back to all sectors</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Industrial -> Construction -->
+  <section id="construction" class="page">
+    <div class="container page-header"><h1>Construction</h1><p>Landmark infrastructure, delivered with certainty.</p></div>
+    <div class="container page-body">
+      <div class="content-grid">
+        <div class="content-image"><img alt="Construction site" src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80"/></div>
+        <div class="content-text">
+          <p class="sub-hero">We build the projects that define cities and trade corridors.</p>
+          <h2 class="lead-2">Complex programs, predictable outcomes</h2>
+          <p>Our construction arm combines modular methods, digital project controls and integrated supply chains to reduce schedule risk and improve capital efficiency. We take end-to-end responsibility from design to commissioning.</p>
+          <h3>Notable project types</h3>
+          <ul class="list">
+            <li>Transport infrastructure — bridges, highways, ports.</li>
+            <li>Commercial & mixed-use developments.</li>
+            <li>Industrial campuses and logistics hubs.</li>
+          </ul>
+          <h3>Case study — Port expansion</h3>
+          <div class="case">Delivered a phased port expansion program that increased annual throughput by 60% while adding automated yard handling to cut average dwell time from 72 to 28 hours.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industrial -> Manufacturing -->
+  <section id="manufacturing" class="page">
+    <div class="container page-header"><h1>Manufacturing</h1><p>High-volume, high-quality production across sectors.</p></div>
+    <div class="container page-body">
+      <div class="content-grid">
+        <div class="content-text">
+          <p class="sub-hero">Smart factories and resilient operations.</p>
+          <h2 class="lead-2">Industry 4.0 at scale</h2>
+          <p>We build factories that combine automation, digital twins and continuous improvement to deliver predictable quality and cost. Our manufacturing capabilities support sectors from automotive to medical devices.</p>
+          <h3>Capabilities</h3>
+          <ul class="list">
+            <li>Robotic assembly, precision machining and clean-room production.</li>
+            <li>Predictive maintenance and energy optimization through IoT.</li>
+            <li>Rapid product ramp and supply chain localization.</li>
+          </ul>
+        </div>
+        <div class="content-image"><img alt="Factory floor" src="https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVuZ2luZWVyaW5nfGVufDB8fDB8fHww"/></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industrial -> Mine & Steel -->
+  <section id="mine-steel" class="page">
+    <div class="container page-header"><h1>Mine & Steel</h1><p>Responsible resource development and downstream processing.</p></div>
+    <div class="container page-body">
+      <div class="content-grid">
+        <div class="content-image"><img alt="Mining site" src="https://plus.unsplash.com/premium_photo-1661937421215-e27b8feb8b2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1pbmluZyUyMGFuZCUyMHN0ZWVsfGVufDB8fDB8fHww"/></div>
+        <div class="content-text">
+          <p class="sub-hero">Raw materials with traceability and stewardship.</p>
+          <h2 class="lead-2">From pit to product</h2>
+          <p>We operate mines and steelworks with modern controls, investing in rehabilitation and community programs. Our downstream processing focuses on energy efficiency and product purity to meet demanding industrial applications.</p>
+          <h3>Practices</h3>
+          <ul class="list">
+            <li>Continuous monitoring and water management.</li>
+            <li>Energy-efficient smelting and alloy production.</li>
+            <li>Community-first resettlement and rehabilitation programs.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industrial -> Ports Operation -->
+  <section id="ports-operation" class="page">
+    <div class="container page-header"><h1>Ports Operation</h1><p>Critical maritime infrastructure and terminal management.</p></div>
+    <div class="container page-body">
+      <div class="content-grid">
+        <div class="content-text">
+          <p class="sub-hero">Optimized terminals for global trade.</p>
+          <h2 class="lead-2">Throughput, efficiency and digital yards</h2>
+          <p>We manage container, bulk and Ro‑Ro terminals with integrated logistics and customs facilitation. Our investments in yard automation and berth scheduling reduce cost and improve reliability for shippers.</p>
+          <h3>Capabilities</h3>
+          <ul class="list">
+            <li>Terminal operations & stevedoring.</li>
+            <li>Gate automation, TOS and yard analytics.</li>
+            <li>Inland logistics and bonded storage solutions.</li>
+          </ul>
+        </div>
+        <div class="content-image"><img alt="Port operations" src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1600&q=80"/></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Energy -> Oil & Gas -->
+  <section id="oil-gas" class="page">
+    <div class="container page-header"><h1>Oil & Gas</h1><p>Integrated upstream and midstream capabilities with a path to cleaner energy.</p></div>
+    <div class="container page-body">
+      <div class="content-grid">
+        <div class="content-image"><img alt="Oil field" src="https://plus.unsplash.com/premium_photo-1682144333631-eac578433ea1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2lsJTIwYW5kJTIwZ2FzfGVufDB8fDB8fHww"/></div>
+        <div class="content-text">
+          <p class="sub-hero">Safe operations. Decarbonization roadmap.</p>
+          <h2 class="lead-2">Operational excellence across the value chain</h2>
+          <p>We run exploration, production and midstream logistics with a strong emphasis on HSE and emissions management. Parallel to our hydrocarbon operations, we pilot renewables and efficiency programs to reduce carbon intensity across assets.</p>
+          <h3>Our approach</h3>
+          <ul class="list">
+            <li>Data-driven reservoir management and drilling optimization.</li>
+            <li>Secure midstream transport and strategic storage.</li>
+            <li>Investment in carbon reduction pilots and energy efficiency.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Agriculture -> Food & Beverage -->
+<section id="food-beverage" class="page">
+  <div class="container page-header">
+    <h1>Food & Beverage</h1>
+    <p>Integrated food systems built for quality and scale.</p>
+  </div>
+  <div class="container page-body">
+    <div class="content-grid">
+      <div class="content-text">
+        <p class="sub-hero">Traceable ingredients, trusted brands.</p>
+
+        <h2 class="lead-2">End-to-end food value chains</h2>
+        <p>We operate farms, processing plants, and distribution networks that prioritize food safety, traceability, and taste. Our product teams focus on innovation in formulations and packaging to extend shelf life and reduce waste. By controlling every stage of the value chain, we ensure quality, consistency, and scale from field to consumer.</p>
+
+        <h3>Core Capabilities</h3>
+        <ul class="list">
+          <li>Large-scale farming operations using precision agriculture.</li>
+          <li>Processing facilities with advanced food safety and hygiene standards.</li>
+          <li>Global distribution networks with efficient cold-chain logistics.</li>
+          <li>Brand development in consumer packaged goods across multiple categories.</li>
+        </ul>
+
+        <h3>Innovation & Technology</h3>
+        <p>We integrate IoT sensors, satellite imaging, and AI-driven analytics to improve crop yields and resource efficiency. Our R&D teams are developing plant-based proteins, functional beverages, and fortified foods to meet shifting consumer preferences. Smart packaging solutions with freshness indicators further strengthen consumer trust.</p>
+
+        <h3>Sustainability</h3>
+        <ul class="list">
+          <li>Regenerative agriculture pilots to restore soil health and biodiversity.</li>
+          <li>Cold-chain investments to reduce spoilage and support exports.</li>
+          <li>Water stewardship programs ensuring efficient irrigation and wastewater reuse.</li>
+          <li>Transitioning to biodegradable and recyclable packaging across product lines.</li>
+        </ul>
+
+        <h3>Case Study — Farm-to-Export Supply Chain</h3>
+        <div class="case">
+          <strong>Challenge:</strong> Farmers in emerging markets faced post-harvest losses exceeding 30% due to poor storage and logistics.<br/>
+          <strong>Approach:</strong> Implemented cold-chain infrastructure, trained farmers in quality assurance, and digitized supply chain tracking for traceability.<br/>
+          <strong>Outcome:</strong> Reduced post-harvest losses to under 10%, increased farmer incomes by 25%, and enabled successful entry into new export markets.
+        </div>
+
+        <h3>Future Outlook</h3>
+        <p>We are scaling investments in climate-resilient crops, alternative proteins, and digital marketplaces that connect farmers directly with buyers. Our vision is to build the most sustainable, transparent, and innovative food ecosystem serving billions of people globally.</p>
+
+        <a class="btn btn-ghost" href="#sectors"><i class="fa-solid fa-arrow-left"></i> Back to all sectors</a>
+      </div>
+      <div class="content-image">
+        <img alt="Food production" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Materials -> Mining, Metals & Chemicals -->
+<section id="mining-metals-chemicals" class="page">
+  <div class="container page-header">
+    <h1>Mining, Metals & Chemicals</h1>
+    <p>Materials engineered for performance and circularity.</p>
+  </div>
+  <div class="container page-body">
+    <div class="content-grid">
+      <div class="content-image">
+        <img alt="Materials processing" src="https://images.unsplash.com/photo-1718619578075-13f4f3a41aa1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1ldGFscyUyMGFuZCUyMGNoZW1pY2FsfGVufDB8fDB8fHww"/>
+      </div>
+      <div class="content-text">
+        <p class="sub-hero">Supplying the inputs for modern industry.</p>
+
+        <h2 class="lead-2">From raw feedstock to finished formulations</h2>
+        <p>We optimize materials portfolios for performance, cost and sustainability. Investments in energy efficiency, recycling and closed-loop processes reduce feedstock dependency and improve margins.</p>
+
+        <h3>Core Capabilities</h3>
+        <ul class="list">
+          <li>Mining and refining of base metals including copper, aluminum, and nickel.</li>
+          <li>Advanced metallurgy for high-strength alloys and lightweight composites.</li>
+          <li>Chemical manufacturing for industrial, agricultural, and specialty applications.</li>
+          <li>Recycling and recovery of critical minerals to support circular supply chains.</li>
+        </ul>
+
+        <h3>Innovation & Technology</h3>
+        <p>We deploy AI-powered exploration tools, automated mining equipment, and digital twins of our smelting facilities to drive efficiency and reduce waste. Advanced chemical engineering processes allow us to produce higher-purity outputs with lower environmental footprints.</p>
+
+        <h3>Sustainability</h3>
+        <p>Sustainability is embedded into our operations. From water recycling in chemical plants to renewable-powered smelters, we align production with global climate targets. We are also actively investing in carbon capture technologies and green hydrogen for process heat.</p>
+
+        <h3>Case Study — Green Aluminum</h3>
+        <div class="case">
+          <strong>Challenge:</strong> A major automotive client required lightweight aluminum components with minimal carbon footprint.<br/>
+          <strong>Approach:</strong> We introduced renewable energy in smelting operations and closed-loop scrap recycling programs.<br/>
+          <strong>Outcome:</strong> Reduced carbon intensity of aluminum production by 45%, helping the client meet strict sustainability targets and improve vehicle efficiency.
+        </div>
+
+        <h3>Future Outlook</h3>
+        <p>Our roadmap includes scaling battery-grade lithium and rare earth elements production, vital for the global energy transition. We aim to be a global leader in responsible materials sourcing, with full traceability and sustainability across all supply chains by 2035.</p>
+
+        <a class="btn btn-ghost" href="#sectors"><i class="fa-solid fa-arrow-left"></i> Back to all sectors</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Materials -> Packaging Materials -->
+  <section id="packaging-materials" class="page">
+    <div class="container page-header"><h1>Packaging Materials</h1><p>Sustainable packaging solutions for modern supply chains.</p></div>
+    <div class="container page-body">
+      <div class="content-grid">
+        <div class="content-text">
+          <p class="sub-hero">Design that protects product and planet.</p>
+          <h2 class="lead-2">Functionality, sustainability and scale</h2>
+          <p>We engineer packaging with recycled content, lightweighting and formats designed to lower logistics cost and environmental footprint.</p>
+        </div>
+        <div class="content-image"><img alt="Packaging production" src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80"/></div>
+      </div>
+    </div>
+  </section>
+
+<!-- Transportation -->
+<section id="transportation" class="page">
+  <div class="container page-header">
+    <h1>Transportation</h1>
+    <p>Logistics engineered for speed and reliability.</p>
+  </div>
+  <div class="container page-body">
+    <div class="content-grid">
+      <div class="content-image">
+        <img alt="Logistics center" src="https://images.unsplash.com/photo-1510410493114-38f0a17d66ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhbnNwb3J0YXRpb258ZW58MHx8MHx8fDA%3D"/>
+      </div>
+      <div class="content-text">
+        <p class="sub-hero">Connecting supply chains across continents.</p>
+        <h2 class="lead-2">Integrated networks and last-mile excellence</h2>
+        <p>We design multimodal networks combining road, rail and maritime to ensure reliability even under stress. Real-time tracking and smart routing minimize delay and cost.</p>
+
+        <h3>Capabilities</h3>
+        <ul class="list">
+          <li>Global freight forwarding with customs clearance expertise.</li>
+          <li>Intermodal hubs designed for seamless transitions between road, rail, sea, and air.</li>
+          <li>Specialized cold-chain solutions for pharmaceuticals and perishables.</li>
+          <li>Heavy-lift and oversized cargo handling with safety-first protocols.</li>
+        </ul>
+
+        <h3>Innovation & Technology</h3>
+        <p>Our logistics division leverages automation and AI to forecast demand, optimize fleet routes, and reduce empty miles. IoT-enabled tracking provides real-time visibility, while digital twins of our hubs enable predictive planning and rapid response during disruptions.</p>
+
+        <h3>Sustainability</h3>
+        <p>We are committed to building low-carbon transport networks. Investments include electric delivery fleets in urban centers, LNG-powered ships, and carbon offset programs. Our partnerships with railway operators help shift bulk cargo away from road, lowering emissions while cutting costs.</p>
+
+        <h3>Case Study — Cross-border Supply Chain</h3>
+        <div class="case">
+          <strong>Challenge:</strong> A consumer goods client required continuous supply across five countries with highly variable customs regimes. <br/>
+          <strong>Approach:</strong> Implemented a digital customs pre-clearance platform, integrated warehousing at strategic border points, and deployed a mix of rail + truck transport. <br/>
+          <strong>Outcome:</strong> Reduced average transit time from 12 days to 6 days, cutting logistics costs by 28% and significantly improving on-shelf availability.
+        </div>
+
+        <h3>Future Outlook</h3>
+        <p>Our strategy is to expand autonomous vehicle pilots, grow air cargo partnerships, and integrate blockchain into supply chain documentation. By 2030, our goal is to operate the most resilient, transparent, and sustainable logistics platform across Europe, Africa, and Asia.</p>
+
+        <a class="btn btn-ghost" href="#sectors"><i class="fa-solid fa-arrow-left"></i> Back to all sectors</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Automobile -->
+<section id="automobile" class="page">
+  <div class="container page-header">
+    <h1>Automobile</h1>
+    <p>Driving innovation, performance, and reliability.</p>
+  </div>
+  <div class="container page-body">
+    <div class="content-grid">
+      <div class="content-image">
+        <img alt="Luxury car showroom" src="https://images.unsplash.com/photo-1531938082025-efdb69fbd925?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxhdXRvbW9iaWxlfGVufDB8fDB8fHww"/>
+      </div>
+      <div class="content-text">
+        <p class="sub-hero">Shaping the future of mobility.</p>
+        <h2 class="lead-2">From showroom to service excellence</h2>
+        <p>We provide a seamless automobile experience — from purchasing your dream car to ensuring its peak performance through expert servicing and advanced technology integration.</p>
+
+        <h3>Capabilities</h3>
+        <ul class="list">
+          <li>Wide range of new and certified pre-owned vehicles.</li>
+          <li>Authorized service centers with genuine spare parts.</li>
+          <li>Car financing, leasing, and insurance solutions.</li>
+          <li>24/7 roadside assistance and customer support.</li>
+        </ul>
+
+        <h3>Innovation & Technology</h3>
+        <p>Our automobile division integrates cutting-edge tech such as AI-assisted diagnostics, connected car platforms, and electric vehicle charging infrastructure. Smart apps keep you in control of your vehicle's performance, service schedules, and real-time updates.</p>
+
+        <h3>Sustainability</h3>
+        <p>We are committed to sustainable mobility. Our initiatives include expanding EV (electric vehicle) offerings, promoting hybrid solutions, and investing in green service centers powered by renewable energy. We also provide eco-driving workshops to reduce emissions.</p>
+
+        <h3>Case Study — Electric Vehicle Launch</h3>
+        <div class="case">
+          <strong>Challenge:</strong> Customers sought affordable EVs with reliable service coverage. <br/>
+          <strong>Approach:</strong> Introduced a new electric sedan model with extended battery range, partnered with charging networks, and trained technicians in EV maintenance. <br/>
+          <strong>Outcome:</strong> Increased EV adoption by 45% in the first year, reduced average customer running costs by 35%, and improved brand loyalty across key regions.
+        </div>
+
+        <h3>Future Outlook</h3>
+        <p>Our vision is to lead the shift towards autonomous driving, expand our EV lineup, and enhance digital mobility services. By 2030, we aim to be at the forefront of smart, sustainable, and connected automobile solutions worldwide.</p>
+
+        <a class="btn btn-ghost" href="#sectors"><i class="fa-solid fa-arrow-left"></i> Back to all sectors</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Real Estate -->
+<section id="real-estate" class="page">
+  <div class="container page-header">
+    <h1>Real Estate</h1>
+    <p>Premium developments that deliver long-term value.</p>
+  </div>
+  <div class="container page-body">
+    <div class="content-grid">
+      <div class="content-text">
+        <p class="sub-hero">Places that perform.</p>
+
+        <h2 class="lead-2">Design-forward developments</h2>
+        <p>Our real estate platform creates mixed-use, industrial, and residential assets designed for operational performance and tenant desirability. We apply data-driven leasing and asset management to maximize returns. Each project is conceived with a long-term perspective — balancing financial strength with community value.</p>
+
+        <h3>Core Capabilities</h3>
+        <ul class="list">
+          <li>Commercial real estate: office towers, retail centers, and logistics hubs.</li>
+          <li>Residential developments: sustainable communities with modern amenities.</li>
+          <li>Industrial parks: purpose-built facilities for manufacturing and distribution.</li>
+          <li>Mixed-use projects: integrating living, working, and leisure into one ecosystem.</li>
+        </ul>
+
+        <h3>Innovation & Design</h3>
+        <p>We integrate smart building technologies including IoT-driven energy management, touchless access, and predictive maintenance. Our design philosophy emphasizes natural light, sustainable materials, and flexible spaces that adapt to evolving tenant needs. Partnerships with leading architects ensure our properties remain timeless and iconic.</p>
+
+        <h3>Sustainability</h3>
+        <p>All projects are guided by green building standards such as LEED and BREEAM. From renewable energy systems to water recycling, we reduce environmental impact while lowering operating costs. We also integrate urban green spaces, walkability, and public transport connectivity to create healthier communities.</p>
+
+        <h3>Case Study — Urban Mixed-Use Hub</h3>
+        <div class="case">
+          <strong>Challenge:</strong> A rapidly growing city needed a development that combined residential, retail, and office spaces in a sustainable way.<br/>
+          <strong>Approach:</strong> We designed a smart mixed-use hub with co-working spaces, green rooftops, and integrated mobility options.<br/>
+          <strong>Outcome:</strong> The development achieved 95% occupancy within the first year and won multiple awards for sustainability and urban design.
+        </div>
+
+        <h3>Future Outlook</h3>
+        <p>We are expanding into affordable housing, data centers, and sustainable urban regeneration projects. By 2030, our vision is to lead in creating resilient, tech-enabled, and inclusive real estate ecosystems across global markets.</p>
+
+        <a class="btn btn-ghost" href="#sectors"><i class="fa-solid fa-arrow-left"></i> Back to all sectors</a>
+      </div>
+      <div class="content-image">
+        <img alt="Real estate development" src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=80"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="page">
+    <div class="container page-header"><h1>Contact Us</h1><p>Talk to the teams that build at scale.</p></div>
+    <div class="container page-body">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Headquarters</h3>
+          <p class="small">123 Global Plaza, World Trade Center</p>
+          <p class="small"><i class="fa-solid fa-phone"></i> +385 976 807 241</p>
+          <p class="small"><i class="fa-solid fa-envelope"></i> info@vertexglobalsinc.com</p>
+
+          <h4 style="margin-top:14px">Regional office</h4>
+          <p class="small">Ivana Mažuranića 14,
+21000 Split,
+Croatia </p>
+
+          <div style="margin-top:12px">
+            <iframe title="Map" width="100%" height="180" style="border:0;border-radius:10px" loading="lazy" src="https://maps.google.com/maps?q=world%20trade%20center&t=&z=2&ie=UTF8&iwloc=&output=embed"></iframe>
+          </div>
+
+          <p class="small" style="margin-top:12px">Follow us: <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a> <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></p>
+        </div>
+
+        <div class="contact-form">
+          <h3>Send us a message</h3>
+          <p class="small">Use this form to reach business development or investor relations. Fields marked * are required.</p>
+
+           NOTE: replace <YOUR_FORMSPREE_ID> with your Formspree form id. 
+          <form id="contactForm" method="POST" action="https://formspree.io/f/<YOUR_FORMSPREE_ID>">
+            <div class="field"><label for="name">Full name *</label><input id="name" name="name" required/></div>
+            <div class="field"><label for="email">Work email *</label><input id="email" name="email" type="email" required/></div>
+            <div class="field"><label for="phone">Phone</label><input id="phone" name="phone"/></div>
+            <div class="field"><label for="company">Company</label><input id="company" name="company"/></div>
+            <div class="field"><label for="sector">Sector of interest</label>
+              <select id="sector" name="sector"><option>Health — Pharmaceutical</option><option>Health — Biotechnology</option><option>Health — Medical Devices</option><option>Industrial — Construction</option><option>Industrial — Manufacturing</option><option>Industrial — Mine & Steel</option><option>Industrial — Ports</option><option>Energy — Oil & Gas</option><option>Agriculture — Food & Beverage</option><option>Materials — Mining</option><option>Materials — Packaging</option><option>Transportation</option><option>Real Estate</option></select>
+            </div>
+            <div class="field"><label for="message">Message *</label><textarea id="message" name="message" required></textarea></div>
+            <div style="display:flex;gap:12px;align-items:center">
+              <button class="btn btn-primary" type="submit">Send message</button>
+              <div id="formStatus" class="small" aria-live="polite"></div>
+            </div>
+          </form>
+
+          <p class="small" style="margin-top:12px">Prefer to email? <a href="mailto:info@vertexglobalsinc.com">info@vertexglobalsinc.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--  <footer>-->
+    <div class="container footer-grid">
+      <div class="fcol"><h3>About</h3><p class="small">Vertex Global Inc. designs, builds and operates market-leading businesses with disciplined capital and a focus on measurable impact.</p></div>
+      <div class="fcol"><h3>Resources</h3><p class="small"><a href="#">Investor relations</a></p><p class="small"><a href="#">Sustainability</a></p><p class="small"><a href="#">Careers</a></p></div>
+      <div class="fcol"><h3>Contact</h3><p class="small">+385 976 807 241</p><p class="small">info@vertexglobalsinc.com</p></div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Vertex Global Inc. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // small helper
+    const $ = (s,o=document)=>o.querySelector(s);
+    const $$ = (s,o=document)=>Array.from(o.querySelectorAll(s));
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile nav
+    const hamburger = document.getElementById('hamburger');
+    const mobilePanel = document.getElementById('mobilePanel');
+    const scrim = document.getElementById('scrim');
+    const closePanel = document.getElementById('closePanel');
+
+    function openPanel(){mobilePanel.classList.add('open');scrim.classList.add('show');hamburger.setAttribute('aria-expanded','true');mobilePanel.setAttribute('aria-hidden','false');document.body.style.overflow='hidden'}
+    function closeMobile(){mobilePanel.classList.remove('open');scrim.classList.remove('show');hamburger.setAttribute('aria-expanded','false');mobilePanel.setAttribute('aria-hidden','true');document.body.style.overflow=''}
+    if(hamburger) hamburger.addEventListener('click', openPanel);
+    if(closePanel) closePanel.addEventListener('click', closeMobile);
+    if(scrim) scrim.addEventListener('click', closeMobile);
+
+    // Desktop: nav triggers should toggle on click for keyboard users
+    $$('.nav-trigger').forEach(node=>{node.addEventListener('click', (e)=>{ const parent = e.currentTarget.parentElement; const open = parent.classList.toggle('open'); $$('.nav-item').forEach(n=>{ if(n!==parent) n.classList.remove('open'); }); });});
+
+    // Mobile: close panel on link click & navigate
+    document.addEventListener('click', (e)=>{
+      const a = e.target.closest('a[href^="#"]');
+      if(!a) return;
+      const id = a.getAttribute('href').slice(1);
+      if(id){ e.preventDefault(); navigateTo(id); closeMobile(); }
+    });
+
+    // Card click opens relevant page
+    $$('.card').forEach(c=>c.addEventListener('click', ()=>{ const id=c.getAttribute('data-target'); if(id) navigateTo(id); }));
+
+    const pages = $$('.page');
+    function resetPages(){ pages.forEach(p=>p.classList.remove('active')); }
+    function navigateTo(id){ resetPages(); if(!id || id==='home' || id==='sectors'){ document.getElementById('home').style.display='block'; window.scrollTo({top:0,behavior:'smooth'}); return;} document.getElementById('home').style.display='none'; const target = document.getElementById(id); if(target){target.classList.add('active'); window.scrollTo({top:0,behavior:'smooth'});} }
+
+    // On load, handle hash
+    window.addEventListener('load', ()=>{ if(location.hash){ navigateTo(location.hash.slice(1)); } });
+
+    // Simple form handling — replace <YOUR_FORMSPREE_ID> in the action attribute with your Formspree form ID to enable direct submissions.
+    const form = document.getElementById('contactForm');
+    const formStatus = document.getElementById('formStatus');
+    form.addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      formStatus.textContent = 'Sending...';
+      const action = form.getAttribute('action');
+      const data = new FormData(form);
+
+      // if user didn't replace the placeholder, fallback to mailto
+      if(action.includes('<YOUR_FORMSPREE_ID>')){
+        formStatus.innerHTML = 'No Formspree ID found — using email fallback. <a href="mailto:info@vertexglobalsinc.com?subject='+encodeURIComponent('Contact from website: '+(data.get('name')||''))+'&body='+encodeURIComponent('Sector: '+(data.get('sector')||'')+'%0A%0A'+(data.get('message')||''))+'">Open your email client</a>';
+        return;
+      }
+
+      try{
+        const res = await fetch(action, {method:'POST',body:data,headers:{'Accept':'application/json'}});
+        if(res.ok){ formStatus.textContent = 'Message sent — we will reply within 48 hours.'; form.reset(); }
+        else{ const json = await res.json(); formStatus.textContent = json.error || 'Submission failed — please try the email fallback.'; }
+      }catch(err){ formStatus.textContent = 'Network error — please try email fallback.' }
+    });
+
+    // Tiny reveal animation
+    const io = new IntersectionObserver((entries)=>{ entries.forEach(en=>{ if(en.isIntersecting){ en.target.style.opacity=1; en.target.style.transform='none'; io.unobserve(en.target); } }); },{threshold:0.12});
+    $$('.card, .content-image, .content-text').forEach(el=>{ el.style.opacity=0; el.style.transform='translateY(18px)'; el.style.transition='all .7s cubic-bezier(.2,.8,.2,1)'; io.observe(el); });
+
+  </script>
+</body>
+</html>
